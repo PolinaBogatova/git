@@ -14,6 +14,16 @@ namespace git
     {
         double a = 0, b = 0, c = 0, d = 0, f = 0;
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            a = Convert.ToDouble(tBox1.Text);
+            b = Convert.ToDouble(tBox2.Text);
+
+            f = a / b;
+
+            tBoxOtv.Text = f.ToString();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             a = Convert.ToDouble(tBox1.Text);
