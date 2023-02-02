@@ -33,6 +33,7 @@ namespace git
             this.tBox2 = new System.Windows.Forms.TextBox();
             this.tBoxOtv = new System.Windows.Forms.TextBox();
             this.Calk = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tBox1
@@ -58,7 +59,7 @@ namespace git
             // 
             // Calk
             // 
-            this.Calk.Location = new System.Drawing.Point(48, 91);
+            this.Calk.Location = new System.Drawing.Point(49, 91);
             this.Calk.Name = "Calk";
             this.Calk.Size = new System.Drawing.Size(47, 23);
             this.Calk.TabIndex = 3;
@@ -66,11 +67,22 @@ namespace git
             this.Calk.UseVisualStyleBackColor = true;
             this.Calk.Click += new System.EventHandler(this.Calk_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(130, 91);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(47, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "-";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 294);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Calk);
             this.Controls.Add(this.tBoxOtv);
             this.Controls.Add(this.tBox2);
@@ -88,6 +100,7 @@ namespace git
         private System.Windows.Forms.TextBox tBox2;
         private System.Windows.Forms.TextBox tBoxOtv;
         private System.Windows.Forms.Button Calk;
+        private System.Windows.Forms.Button button1;
     }
 }
 

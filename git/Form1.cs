@@ -28,6 +28,19 @@ namespace git
             c = a + b;
        
             tBoxOtv.Text = c.ToString();
+
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            a = Convert.ToDouble(tBox1.Text);
+            b = Convert.ToDouble(tBox2.Text);
+
+
+            d = a - b;
+            tBoxOtv.Text = d.ToString();
+
         }
 
 
